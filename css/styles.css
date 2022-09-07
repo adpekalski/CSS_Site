@@ -1,0 +1,171 @@
+/* colors #100720 #31087B #FA2FB5 #1363DF */
+/* 16px = 100% or 1em or 1rem ale rem nie dziedziczy */
+body {
+  background-image: url("leaves.jpg");
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 0;
+  text-align: center;
+  font-family: 'Abhaya Libre', serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 6px;
+  width: 4%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  color: #66BFBF;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  line-height: 0.5;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #66BFBF;
+  text-align: left;
+  width: auto;
+  margin-left: 2rem;
+  margin-top: 0;
+  margin: 0 auto 0.7rem 2rem;
+}
+
+h5 {
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 14rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: #66BFBF;
+  font-family: 'Rock Salt', cursive;
+}
+
+p {
+  color: dimgray;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0;
+  width: 40%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+.top {
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+
+.bottom {
+  background-color: #EAF6F6;
+}
+
+.developer {
+  text-decoration: underline;
+}
+
+.TopCloud {
+  position: absolute;
+  top: 50px;
+  right: 20%;
+}
+
+.BottomCloud {
+  position: absolute;
+  left: 25%;
+}
+
+.skill-row-1 {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  margin: 0 28% 0 22%;
+  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.skill-row-2 {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  margin: 0 28% 0 22%;
+  text-align: left;
+}
+
+.skill-row-1 p {
+  width: auto;
+  margin-left: 2rem;
+}
+
+.skill-row-2 p {
+  width: auto;
+  margin-left: 2rem;
+}
+
+.Mountain {
+  height: 200px;
+}
+
+.chillies {
+  width: 20%;
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.computer {
+  width: 20%;
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 50%;
+}
+
+.btn {
+  font-family: 'Abhaya Libre', serif;
+  display: inline-block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.bottom p {
+  margin-bottom: 0;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  color: #66BFBF;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 2rem 2rem 0 2rem;
+  font-weight: bold;
+}
+
+.middle {
+  background-color: white;
+}
