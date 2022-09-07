@@ -1,8 +1,7 @@
 /* colors #100720 #31087B #FA2FB5 #1363DF */
 /* 16px = 100% or 1em or 1rem ale rem nie dziedziczy */
 body {
-/*   background-image: url("leaves.jpg"); */
-  color: red;
+  background-image: url("leaves.jpg");
   margin: 0 auto;
   max-width: 60rem;
   padding: 0;
